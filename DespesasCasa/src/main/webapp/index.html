@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Despesas Da Casa</h1>
+        
+        <form action="salvaDespesa.jsp" method="post">
+            <label for="despesa">Despesas</label>
+            <input type="text" id="despesas" name="despesas">
+            
+            <label for="despesa">Valor:</label>
+            <input type="text" id="valor" name="valor">
+            
+            <label for="parcelas">parcelas</label>
+            <input type="text" name="parcelas" id="parcelas" placeholder="Digite a quantidade de parcelas">
+            
+            <label for="Categoria">Categoria</label>
+            <input type="text" name="categoria" id="categoria" >
+            
+            <label for="local">local</label>
+            <input type="text" id="local" name="local">
+            
+            <label for="Data">Data</label>
+            <input type="date" name="data" id="data">
+            
+            <label for="descrição">Descrição</label>
+            <textarea name="descricao">Digite a descrição da despesa.</textarea>
+            
+            <br><br>
+            <input type="submit" id="enviar" name="enviar">
+        </form>
+    </body>
+</html>
